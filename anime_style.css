@@ -296,6 +296,22 @@ body{
     list-style-type: none;
    
 }
+.footer .contacter ul{
+    list-style: none;
+}
+.footer .contacter li a {
+    text-decoration: none; 
+    color: white;
+}
+.footer .social_media li {
+    position: relative;
+    right: 40px;
+    
+}
+.footer .contacter li {
+    position: relative;
+    right: 50px;  
+}
 .footer  .part_nocopyright .last_pub .newsletter input[type="search"]{
     border-radius: 10px 0 0 10px;
     border: none;
@@ -362,7 +378,7 @@ body{
     .main-contanier .image {
         background-image: url('slide.jpg');
         filter: contrast(1);
-        padding: px;
+        padding: 0;
         margin: 0;
     }
     
@@ -437,7 +453,7 @@ body{
         height: 100%;
         background-color: #f5f5f5fb;
         position: fixed;
-        top: 70px;
+        top: 50px;
         right: 0;
         transform:translateX(23rem);
         z-index: 999;
@@ -538,6 +554,17 @@ body{
         top: 10px;
         height: 660px;
     }
+    .footer  .part_nocopyright .last_pub .title{
+        width: 120px;
+        margin-right: 0;
+    }
+    .footer  .part_nocopyright .last_pub .newsletter_text{
+        width: 80%;
+        margin: 15px;
+    }
+    .footer  .part_nocopyright .last_pub .newsletter form{
+        margin: 15px 0 15px 30px;
+    }
     .footer .part_nocopyright{
         display: flex;
         justify-content: space-around;
@@ -557,6 +584,22 @@ body{
         position: relative;
         left: 100px;
     }
+    .footer .rubri_link li{
+        position: relative;
+        right: 40px;
+    
+    }
+    .footer .social_media li {
+        position: relative;
+        right: 40px;
+        
+    }
+    .footer .contacter li {
+        position: relative;
+        right: 50px;  
+    }
+   
+
 
     .container-one .post-containe h1{
         position:relative;
